@@ -10,7 +10,6 @@ st.set_page_config(
 )
 
 # --- CHARGEMENT DES RESSOURCES ---
-# IMPORTANT : Renomme la photo en "profile_pic.jpeg" .
 try:
     profile_pic = Image.open("profile_pic.jpeg")
 except FileNotFoundError:
