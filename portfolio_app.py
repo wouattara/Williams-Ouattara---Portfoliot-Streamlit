@@ -2,7 +2,7 @@ import streamlit as st
 from PIL import Image
 
 # --- CONFIGURATION DE LA PAGE ---
-# Définit le titre de l'onglet, l'icône et la mise en page.
+# titre de l'onglet, l'icône et la mise en page.
 st.set_page_config(
     page_title="Williams Ouattara | Portfolio",
     page_icon="👨‍💻",
@@ -10,8 +10,7 @@ st.set_page_config(
 )
 
 # --- CHARGEMENT DES RESSOURCES ---
-# Chargez votre photo de profil ici.
-# IMPORTANT : Renommez votre photo en "profile_pic.jpeg" et placez-la dans le même dossier que ce script.
+# IMPORTANT : Renommez la photo en "profile_pic.jpeg" .
 try:
     profile_pic = Image.open("profile_pic.jpeg")
 except FileNotFoundError:
@@ -35,7 +34,7 @@ with col2:
         """
     )
     # Pensez à mettre le lien vers le PDF de votre CV (hébergé sur Google Drive, Dropbox, etc.)
-    st.link_button("📄 Télécharger mon CV", "#")
+    st.link_button("📄 Télécharger mon CV", "https://drive.google.com/file/d/14iwxA921DhybIFSBfwo35QD0pNwTFM0r/view?usp=share_link)
 
 
 # --- MON PROJET ---
