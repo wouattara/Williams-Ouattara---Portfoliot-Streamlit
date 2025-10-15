@@ -34,7 +34,7 @@ with col2:
         """
     )
     # Pensez à mettre le lien vers le PDF de votre CV (hébergé sur Google Drive, Dropbox, etc.)
-    st.link_button("📄 Télécharger mon CV", "https://drive.google.com/file/d/14iwxA921DhybIFSBfwo35QD0pNwTFM0r/view?usp=share_link)
+    st.link_button("📄 Télécharger mon CV", "https://drive.google.com/file/d/14iwxA921DhybIFSBfwo35QD0pNwTFM0r/view?usp=share_link")
 
 
 # --- MON PROJET ---
