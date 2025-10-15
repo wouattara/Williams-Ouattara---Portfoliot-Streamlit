@@ -10,7 +10,7 @@ st.set_page_config(
 )
 
 # --- CHARGEMENT DES RESSOURCES ---
-# IMPORTANT : Renommez la photo en "profile_pic.jpeg" .
+# IMPORTANT : Renomme la photo en "profile_pic.jpeg" .
 try:
     profile_pic = Image.open("profile_pic.jpeg")
 except FileNotFoundError:
@@ -33,7 +33,7 @@ with col2:
         Je transforme les données en décisions rentables et les risques en opportunités de sécurisation.
         """
     )
-    # Pensez à mettre le lien vers le PDF de votre CV (hébergé sur Google Drive, Dropbox, etc.)
+    # le lien vers le PDF de votre CV (hébergé sur Google Drive.)
     st.link_button("📄 Télécharger mon CV", "https://drive.google.com/file/d/1de9P9iLuXom91IjDidsWgapamCN-XzrU/view?usp=share_link")
 
 
@@ -125,7 +125,7 @@ st.write(
     4.  Création de **visualisations interactives** (graphiques, cartes, filtres) pour permettre une exploration intuitive des résultats par un manager.
     """
 )
-# Vous pourrez ajouter un lien vers le rapport public Power BI ici.
+#  ajouter le lien vers le rapport public Power BI ici.
 st.link_button("Voir le Dashboard en ligne", "#")
 
 # --- CONTACT ---
